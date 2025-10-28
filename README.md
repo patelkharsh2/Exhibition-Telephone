@@ -18,4 +18,4 @@ Raspberry PI powered retro telephone to play custom audio
 - vim
 
 ## Hardware Setup
-![Connection Diagram](ConnectionDiagram.png)
+![Connection Diagram](Connection_Diagram.png)

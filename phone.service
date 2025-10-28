@@ -1,0 +1,16 @@
+[Unit]
+Description=Retro Telephone
+After=network.target sound.target local-fs.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/baps/test.py
+Restart=always
+RestartSec=2
+User=baps
+WorkingDirectory=/home/baps
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+
+[Install]
+WantedBy=multi-user.target
+
